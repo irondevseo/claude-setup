@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "brainstorming": {
+      "source": "obra/superpowers",
+      "sourceType": "github",
+      "skillPath": "skills/brainstorming/SKILL.md",
+      "computedHash": "8df9b47092524833138b58682d03f2e153a242e550d1693657afdbee0cc9cdb0"
+    },
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "computedHash": "063a0e6448123cd359ad0044cc46b0e490cc7964d45ef4bb9fd842bd2ffbca67"
+    },
+    "senior-backend": {
+      "source": "alirezarezvani/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering-team/skills/senior-backend/SKILL.md",
+      "computedHash": "45228f6f893be2bbfcea6be09a7f3fb847635e828a31860a4fd810dbdd26ec0d"
+    },
+    "senior-frontend": {
+      "source": "borghei/claude-skills",
+      "sourceType": "github",
+      "skillPath": "engineering/senior-frontend/SKILL.md",
+      "computedHash": "44c27460a4e28b99ab05a929ae69d784c0365876398fb75fd75ad03a8f14e388"
+    }
+  }
+}
