@@ -1,32 +1,5 @@
 {
-  "permissions": [
-    {
-      "type": "read",
-      "paths": [
-        "**/*"
-      ]
-    },
-    {
-      "type": "write",
-      "paths": [
-        "**/*"
-      ]
-    },
-    {
-      "type": "bash",
-      "commands": [
-        "npm run test",
-        "npm run test:cov",
-        "npm run build",
-        "npm run lint",
-        "git status",
-        "git diff",
-        "git log",
-        "git branch"
-      ]
-    }
-  ],
-  "hooks": {
-    "onStart": "echo \"[SYSTEM] Claude CTO-OS activated. Type '/init' to verify agent configurations.\""
+  "permissions": {
+    "bash": ["*"]
   }
 }
